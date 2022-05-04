@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#0D1E1C</color>
+    <color name="colorTextStart">#0B1D55</color>
+    <color name="colorSUbstanceName">#3677FF</color>
+    <color name="colorProcedures">#0D4ED6</color>
+    <color name="colorSUbstanceDesc">#FFFFFF</color>
+    <color name="colorAdrBackground">#E3F2FD</color>
+    <color name="colorTextSubs">#0B2868</color>
+    <color name="colorTitle">#304FFE</color>
+</resources>

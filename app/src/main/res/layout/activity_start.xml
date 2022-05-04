@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAdrBackground"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/tite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:paddingHorizontal="30dp"
+        android:text="Poradnik ratownika KSRG"
+        android:textColor="@color/colorSUbstanceName"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/buttonONZ"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_actv3"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Ratownictwo chemiczne                  i ekologiczne"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonKPP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/buttonKPP"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_actv3"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Kwalifikowana Pierwsza Pomoc"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonONZ"
+        app:layout_constraintTop_toTopOf="@+id/buttonONZ"></TextView>
+
+    <FrameLayout
+        android:id="@+id/frameVideo"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="4dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonONZ">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></VideoView>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bInfo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_info"
+        android:backgroundTint="@color/colorSUbstanceName"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></Button>
+
+    <TextView
+        android:id="@+id/secretButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/colorAdrBackground"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

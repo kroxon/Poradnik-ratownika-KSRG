@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Poradnik Ratownika KSRG</string>
+    <string name="title_adr">Substancje niebezpieczne</string>
+    <string name="title_kpp">KPP</string>
+    <string name="myHint">Wpisz nazwę lub numer ONZ substancji</string>
+
+    <string name="linkDoRatMed">
+        <a href="https://www.gov.pl/web/kgpsp/skrpty-kpp">
+            https://www.gov.pl/web/kgpsp/skrpty-kpp</a>
+    </string>
+
+    <string name="linkDoRatChem">
+        <a href="http://www.gios.gov.pl/pl/component/content/article/25-powazne-awarie/107-publikacje-i-wytyczne">
+            http://www.gios.gov.pl</a>
+    </string>
+
+    <string name="linkDoAnkiety">
+        <a href="https://forms.gle/TCV3r2pL5Z7wbYBSA">link do ankiety</a>
+    </string>
+
+    <string-array name="procedures_kpp">
+        <item>Sekwencja założeń taktycznych w ratownictwie medycznym</item>
+        <item>Sekwencja medycznych działań ratowniczych</item>
+        <item>Postępowanie w zatrzymaniu krążenia u dorosłych (RKO)</item>
+        <item>Postępowanie w zatrzymaniu krążenia u noworodków, niemowląt, dzieci (RKO)</item>
+        <item>Obrażenia i podejrzenie obrażeń głowy</item>
+        <item>Obrażenia i podejrzenie obrażeń kręgosłupa</item>
+        <item>Obrażenia i podejrzenie obrażeń klatki piersiowej</item>
+        <item>Obrażenia i podejrzenie obrażeń brzucha</item>
+        <item>Obrażenia i podejrzenie obrażeń miednicy</item>
+        <item>Obrażenia i podejrzenie obrażenia narządu ruchu</item>
+        <item>Rany</item>
+        <item>Amputacja urazowa</item>
+        <item>Wstrząs hipowolemiczny – postępowanie wstępne</item>
+        <item>Oparzenie termiczne</item>
+        <item>Oparzenie chemiczne</item>
+        <item>Zatrucie wziewne</item>
+        <item>Tonięcie</item>
+        <item>Wychłodzenie</item>
+        <item>Zaburzenia krążeniowo – oddechowe w stanach nieurazowych</item>
+        <item>Drgawki</item>
+        <item>Kobieta w widocznej ciąży w stanie zagrożenia życia/zdrowia</item>
+    </string-array>
+
+    <string-array name="procedure_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+    </string-array>
+
+</resources>

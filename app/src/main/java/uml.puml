@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam classAttributeIconSize 0
+'class ProcedureClass {
+'    -id
+'     -pNumber
+'     -pDescription
+'     -pForE
+'     -pEffect
+'     -pPrinciple
+'     -pClothing
+'     -pEvacuation
+'     -pFire
+'     -pLorS
+'     -pFirstAid
+'
+'      +setpNumber()
+'      +setpDescription()
+'      +setpForE()
+'      +setpEffect()
+'      +setpPrinciple()
+'      +setpClothing()
+'      +setpEvacuation()
+'      +setpFire()
+'      +setpLorS()
+'      +setpFirstAid()
+'           +getpNumber()
+'            +getpDescription()
+'            +getpForE()
+'            +getpEffect()
+'            +getpPrinciple()
+'            +getpClothing()
+'            +getpEvacuation()
+'            +getpFire()
+'            +getpLorS()
+'            +getpFirstAid()
+'
+'}
+
+
+class Substance {
+     -Id
+     -onzNumber
+     -procNum
+     -substName
+          +setId()
+          +setonzNumber()
+          +setprocNum()
+          +setsubstName()
+                    +getId()
+                    +getonzNumber()
+                    +getprocNum()
+                    +getsubstName()
+
+}
+
+@enduml
